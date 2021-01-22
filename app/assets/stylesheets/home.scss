@@ -1,0 +1,68 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+/* reset ================================ */
+/*共通事項*/
+*{
+  margin: 0;
+  padding: 0; 
+}
+ul,li{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.main{
+  position: absolute;
+  height: auto;
+  top: 64px;
+}
+a{
+  text-decoration: none;
+}
+
+/*header*/
+header{
+  padding-top: 15px;
+  height: 64px;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  background-color:#663300;
+}
+.header-logo{
+  float: left;
+  padding-left: 20px;
+  color: white;
+  line-height: 64px;
+}
+.header-logo a{
+  color: white;
+  font-size: 24px;
+}
+.header-menus{
+  float: right;
+  padding-right: 40px;
+  color: white;
+  line-height: 64px;
+}
+.header-menus a{
+  color: white;
+}
+/*top*/
+.top-main{
+  height: 600px;
+  padding-top: 600px;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  color: white;
+  background-image: url("/coffee-shop.jpg");
+  background-size: cover;
+}
+.top-message{
+  position: relative;
+}
+.top-message h1{
+  font-size: 60px;
+}
